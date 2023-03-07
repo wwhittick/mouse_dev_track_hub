@@ -1,0 +1,8 @@
+for f in *.bedgraph; do
+	bedtools sort -i "$f" > "${f%.*}_sorted.bedgraph";
+done
+
+for f in *_sorted.bedgraph; do
+	bedGraphToBigWig "$f" https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes "${f%.*}.bw";
+done
+

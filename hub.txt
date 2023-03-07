@@ -1,0 +1,7 @@
+hub mouse_dev_track_hub
+shortLabel Mouse Dev CAGE
+longLabel CAGE in 3 days and 3 tissues of mouse embryogenesis 
+genomesFile genomes.txt
+email waw21@ic.ac.uk
+descriptionUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/README.md
+
