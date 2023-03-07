@@ -1,6 +1,6 @@
-track CellCycleCAGEComposite
-shortLabel Cell Cycle CAGE
-longLabel Cell Cycle CAGE
+track MouseDevCompositeCAGE
+shortLabel Mouse Dev CAGE
+longLabel Mouse Dev CAGE
 type bigWig
 visibility full
 priority 1
@@ -20,7 +20,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 	longLabel CAGE signal
 	type bigWig
 	visibility full
-	parent CellCycleCAGEComposite on
+	parent MouseDevCompositeCAGE on
 	view signal
 
 		track day3_postEpi_batch2_rep1_minus_sorted
