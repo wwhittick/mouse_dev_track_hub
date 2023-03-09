@@ -29,8 +29,8 @@ sortOrder day=+ tissue=- rep=+ strand=+
 		longLabel day3_postEpi_batch2_rep1_minus_sorted
 		type bigWig
 		color 0,0,255
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day3_postEpi_batch2_rep1_minus view=signal stage=day3 fraction=postEpi rep=batch2 strand=minus
 		parent CAGEsignalBigWig on
@@ -42,8 +42,8 @@ maxHeightPixels 128:32:8
 		longLabel day3_postEpi_batch2_rep1_plus_sorted
 		type bigWig
 		color 255,0,0
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day3_postEpi_batch2_rep1_plus view=signal stage=day3 fraction=postEpi rep=batch2 strand=plus
 		parent CAGEsignalBigWig on
@@ -55,8 +55,8 @@ maxHeightPixels 128:32:8
 		longLabel day3_postEpi_batch2_rep2_minus_sorted
 		type bigWig
 		color 0,0,255
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day3_postEpi_batch2_rep2_minus view=signal stage=day3 fraction=postEpi rep=batch2 strand=minus
 		parent CAGEsignalBigWig on
@@ -68,8 +68,8 @@ maxHeightPixels 128:32:8
 		longLabel day3_postEpi_batch2_rep2_plus_sorted
 		type bigWig
 		color 255,0,0
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day3_postEpi_batch2_rep2_plus view=signal stage=day3 fraction=postEpi rep=batch2 strand=plus
 		parent CAGEsignalBigWig on
@@ -81,8 +81,8 @@ maxHeightPixels 128:32:8
 		longLabel day4_meso_batch1_rep1_minus_sorted
 		type bigWig
 		color 0,0,255
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day4_meso_batch1_rep1_minus view=signal stage=day4 fraction=meso rep=batch1 strand=minus
 		parent CAGEsignalBigWig on
@@ -94,8 +94,8 @@ maxHeightPixels 128:32:8
 		longLabel day4_meso_batch1_rep1_plus_sorted
 		type bigWig
 		color 255,0,0
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day4_meso_batch1_rep1_plus view=signal stage=day4 fraction=meso rep=batch1 strand=plus
 		parent CAGEsignalBigWig on
@@ -107,8 +107,8 @@ maxHeightPixels 128:32:8
 		longLabel day4_postEpi_batch2_rep1_minus_sorted
 		type bigWig
 		color 0,0,255
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day4_postEpi_batch2_rep1_minus view=signal stage=day4 fraction=postEpi rep=batch2 strand=minus
 		parent CAGEsignalBigWig on
@@ -120,8 +120,8 @@ maxHeightPixels 128:32:8
 		longLabel day4_postEpi_batch2_rep1_plus_sorted
 		type bigWig
 		color 255,0,0
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day4_postEpi_batch2_rep1_plus view=signal stage=day4 fraction=postEpi rep=batch2 strand=plus
 		parent CAGEsignalBigWig on
@@ -133,8 +133,8 @@ maxHeightPixels 128:32:8
 		longLabel day4_postEpi_batch2_rep2_minus_sorted
 		type bigWig
 		color 0,0,255
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day4_postEpi_batch2_rep2_minus view=signal stage=day4 fraction=postEpi rep=batch2 strand=minus
 		parent CAGEsignalBigWig on
@@ -146,8 +146,8 @@ maxHeightPixels 128:32:8
 		longLabel day4_postEpi_batch2_rep2_plus_sorted
 		type bigWig
 		color 255,0,0
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day4_postEpi_batch2_rep2_plus view=signal stage=day4 fraction=postEpi rep=batch2 strand=plus
 		parent CAGEsignalBigWig on
@@ -159,8 +159,8 @@ maxHeightPixels 128:32:8
 		longLabel day4_spinal_batch1_rep1_minus_sorted
 		type bigWig
 		color 0,0,255
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day4_spinal_batch1_rep1_minus view=signal stage=day4 fraction=spinal rep=batch1 strand=minus
 		parent CAGEsignalBigWig on
@@ -172,8 +172,8 @@ maxHeightPixels 128:32:8
 		longLabel day4_spinal_batch1_rep1_plus_sorted
 		type bigWig
 		color 255,0,0
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day4_spinal_batch1_rep1_plus view=signal stage=day4 fraction=spinal rep=batch1 strand=plus
 		parent CAGEsignalBigWig on
@@ -185,8 +185,8 @@ maxHeightPixels 128:32:8
 		longLabel day5_meso_batch1_rep2_minus_sorted
 		type bigWig
 		color 0,0,255
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day5_meso_batch1_rep2_minus view=signal stage=day5 fraction=meso rep=batch1 strand=minus
 		parent CAGEsignalBigWig on
@@ -198,8 +198,8 @@ maxHeightPixels 128:32:8
 		longLabel day5_meso_batch1_rep2_plus_sorted
 		type bigWig
 		color 255,0,0
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day5_meso_batch1_rep2_plus view=signal stage=day5 fraction=meso rep=batch1 strand=plus
 		parent CAGEsignalBigWig on
@@ -211,8 +211,8 @@ maxHeightPixels 128:32:8
 		longLabel day5_meso_batch2_rep1_minus_sorted
 		type bigWig
 		color 0,0,255
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day5_meso_batch2_rep1_minus view=signal stage=day5 fraction=meso rep=batch2 strand=minus
 		parent CAGEsignalBigWig on
@@ -224,8 +224,8 @@ maxHeightPixels 128:32:8
 		longLabel day5_meso_batch2_rep1_plus_sorted
 		type bigWig
 		color 255,0,0
-autoScale group
-maxHeightPixels 128:32:8
+		autoScale group
+		maxHeightPixels 128:32:8
 		visibility full
 		subGroups sample=day5_meso_batch2_rep1_plus view=signal stage=day5 fraction=meso rep=batch2 strand=plus
 		parent CAGEsignalBigWig on
