@@ -24,7 +24,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 	view signal
 
 		track day3_postEpi_batch2_rep1_minus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day3_postEpi_batch2_rep1_minus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day3_postEpi_batch2_rep1_minus_sorted.bw
 		shortLabel day3_postEpi_batch2_rep1_minus
 		longLabel day3_postEpi_batch2_rep1_minus_sorted
 		type bigWig
@@ -37,7 +37,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day3_postEpi_batch2_rep1_plus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day3_postEpi_batch2_rep1_plus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day3_postEpi_batch2_rep1_plus_sorted.bw
 		shortLabel day3_postEpi_batch2_rep1_plus
 		longLabel day3_postEpi_batch2_rep1_plus_sorted
 		type bigWig
@@ -50,7 +50,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day3_postEpi_batch2_rep2_minus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day3_postEpi_batch2_rep2_minus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day3_postEpi_batch2_rep2_minus_sorted.bw
 		shortLabel day3_postEpi_batch2_rep2_minus
 		longLabel day3_postEpi_batch2_rep2_minus_sorted
 		type bigWig
@@ -63,7 +63,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day3_postEpi_batch2_rep2_plus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day3_postEpi_batch2_rep2_plus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day3_postEpi_batch2_rep2_plus_sorted.bw
 		shortLabel day3_postEpi_batch2_rep2_plus
 		longLabel day3_postEpi_batch2_rep2_plus_sorted
 		type bigWig
@@ -76,7 +76,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day4_meso_batch1_rep1_minus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day4_meso_batch1_rep1_minus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day4_meso_batch1_rep1_minus_sorted.bw
 		shortLabel day4_meso_batch1_rep1_minus
 		longLabel day4_meso_batch1_rep1_minus_sorted
 		type bigWig
@@ -89,7 +89,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day4_meso_batch1_rep1_plus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day4_meso_batch1_rep1_plus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day4_meso_batch1_rep1_plus_sorted.bw
 		shortLabel day4_meso_batch1_rep1_plus
 		longLabel day4_meso_batch1_rep1_plus_sorted
 		type bigWig
@@ -102,7 +102,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day4_postEpi_batch2_rep1_minus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day4_postEpi_batch2_rep1_minus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day4_postEpi_batch2_rep1_minus_sorted.bw
 		shortLabel day4_postEpi_batch2_rep1_minus
 		longLabel day4_postEpi_batch2_rep1_minus_sorted
 		type bigWig
@@ -115,7 +115,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day4_postEpi_batch2_rep1_plus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day4_postEpi_batch2_rep1_plus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day4_postEpi_batch2_rep1_plus_sorted.bw
 		shortLabel day4_postEpi_batch2_rep1_plus
 		longLabel day4_postEpi_batch2_rep1_plus_sorted
 		type bigWig
@@ -128,7 +128,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day4_postEpi_batch2_rep2_minus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day4_postEpi_batch2_rep2_minus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day4_postEpi_batch2_rep2_minus_sorted.bw
 		shortLabel day4_postEpi_batch2_rep2_minus
 		longLabel day4_postEpi_batch2_rep2_minus_sorted
 		type bigWig
@@ -141,7 +141,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day4_postEpi_batch2_rep2_plus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day4_postEpi_batch2_rep2_plus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day4_postEpi_batch2_rep2_plus_sorted.bw
 		shortLabel day4_postEpi_batch2_rep2_plus
 		longLabel day4_postEpi_batch2_rep2_plus_sorted
 		type bigWig
@@ -154,7 +154,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day4_spinal_batch1_rep1_minus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day4_spinal_batch1_rep1_minus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day4_spinal_batch1_rep1_minus_sorted.bw
 		shortLabel day4_spinal_batch1_rep1_minus
 		longLabel day4_spinal_batch1_rep1_minus_sorted
 		type bigWig
@@ -167,7 +167,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day4_spinal_batch1_rep1_plus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day4_spinal_batch1_rep1_plus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day4_spinal_batch1_rep1_plus_sorted.bw
 		shortLabel day4_spinal_batch1_rep1_plus
 		longLabel day4_spinal_batch1_rep1_plus_sorted
 		type bigWig
@@ -180,7 +180,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day5_meso_batch1_rep2_minus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day5_meso_batch1_rep2_minus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day5_meso_batch1_rep2_minus_sorted.bw
 		shortLabel day5_meso_batch1_rep2_minus
 		longLabel day5_meso_batch1_rep2_minus_sorted
 		type bigWig
@@ -193,7 +193,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day5_meso_batch1_rep2_plus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day5_meso_batch1_rep2_plus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day5_meso_batch1_rep2_plus_sorted.bw
 		shortLabel day5_meso_batch1_rep2_plus
 		longLabel day5_meso_batch1_rep2_plus_sorted
 		type bigWig
@@ -206,7 +206,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day5_meso_batch2_rep1_minus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day5_meso_batch2_rep1_minus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day5_meso_batch2_rep1_minus_sorted.bw
 		shortLabel day5_meso_batch2_rep1_minus
 		longLabel day5_meso_batch2_rep1_minus_sorted
 		type bigWig
@@ -219,7 +219,7 @@ sortOrder day=+ tissue=- rep=+ strand=+
 
 
 		track day5_meso_batch2_rep1_plus_sorted
-		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/mm10/day5_meso_batch2_rep1_plus_sorted.bw
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/blob/main/mm10/day5_meso_batch2_rep1_plus_sorted.bw
 		shortLabel day5_meso_batch2_rep1_plus
 		longLabel day5_meso_batch2_rep1_plus_sorted
 		type bigWig
