@@ -1,0 +1,202 @@
+track MouseDevCompositeCAGE
+shortLabel Mouse Dev CAGE
+longLabel Mouse Dev CAGE
+type bigWig
+visibility full
+priority 1
+compositeTrack on
+subGroup1 view Views signal=signal peak=peak
+subGroup2 sample sample_id day3_postEpi_batch2_rep1_minus=day3_postEpi_batch2_rep1_minus day3_postEpi_batch2_rep1_plus=day3_postEpi_batch2_rep1_plus day3_postEpi_batch2_rep2_minus=day3_postEpi_batch2_rep2_minus day3_postEpi_batch2_rep2_plus=day3_postEpi_batch2_rep2_plus day4_meso_batch1_rep1_minus=day4_meso_batch1_rep1_minus day4_meso_batch1_rep1_plus=day4_meso_batch1_rep1_plus day4_postEpi_batch2_rep1_minus=day4_postEpi_batch2_rep1_minus day4_postEpi_batch2_rep1_plus=day4_postEpi_batch2_rep1_plus day4_postEpi_batch2_rep2_minus=day4_postEpi_batch2_rep2_minus day4_postEpi_batch2_rep2_plus=day4_postEpi_batch2_rep2_plus day4_spinal_batch1_rep1_minus=day4_spinal_batch1_rep1_minus day4_spinal_batch1_rep1_plus=day4_spinal_batch1_rep1_plus day5_meso_batch1_rep2_minus=day5_meso_batch1_rep2_minus day5_meso_batch1_rep2_plus=day5_meso_batch1_rep2_plus day5_meso_batch2_rep1_minus=day5_meso_batch2_rep1_minus day5_meso_batch2_rep1_plus=day5_meso_batch2_rep1_plus
+subGroup3 day  developmental_day day3=day3 day4=day4 day5=day5
+subGroup4 tissue rna_tissue postEpi=postEpi meso=meso spinal=spinal
+subGroup5 rep bio_rep rep1=rep1 rep2=rep2
+subGroup6 strand seq_strand minus=minus plus=plus
+dimensions dimX=day dimY=tissue dimA=rep dimB=strand
+filterComposite dimA dimB
+sortOrder day=+ tissue=- rep=+ strand=+
+
+	track CAGEsignalBigWig
+	shortLabel CAGE signal
+	longLabel CAGE signal
+	type bigWig
+	visibility full
+	parent MouseDevCompositeCAGE on
+	view signal
+
+		track day3_postEpi_batch2_rep1_minus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day3_postEpi_batch2_rep1_minus_sorted.bw
+		shortLabel day3_postEpi_batch2_rep1_minus
+		longLabel day3_postEpi_batch2_rep1_minus_sorted
+		type bigWig
+		color 0,0,255
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day3_postEpi_batch2_rep1_minus view=signal stage=day3 fraction=postEpi rep=batch2 strand=minus
+		parent CAGEsignalBigWig on
+
+
+		track day3_postEpi_batch2_rep1_plus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day3_postEpi_batch2_rep1_plus_sorted.bw
+		shortLabel day3_postEpi_batch2_rep1_plus
+		longLabel day3_postEpi_batch2_rep1_plus_sorted
+		type bigWig
+		color 255,0,0
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day3_postEpi_batch2_rep1_plus view=signal stage=day3 fraction=postEpi rep=batch2 strand=plus
+		parent CAGEsignalBigWig on
+
+
+		track day3_postEpi_batch2_rep2_minus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day3_postEpi_batch2_rep2_minus_sorted.bw
+		shortLabel day3_postEpi_batch2_rep2_minus
+		longLabel day3_postEpi_batch2_rep2_minus_sorted
+		type bigWig
+		color 0,0,255
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day3_postEpi_batch2_rep2_minus view=signal stage=day3 fraction=postEpi rep=batch2 strand=minus
+		parent CAGEsignalBigWig on
+
+
+		track day3_postEpi_batch2_rep2_plus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day3_postEpi_batch2_rep2_plus_sorted.bw
+		shortLabel day3_postEpi_batch2_rep2_plus
+		longLabel day3_postEpi_batch2_rep2_plus_sorted
+		type bigWig
+		color 255,0,0
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day3_postEpi_batch2_rep2_plus view=signal stage=day3 fraction=postEpi rep=batch2 strand=plus
+		parent CAGEsignalBigWig on
+
+
+		track day4_meso_batch1_rep1_minus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day4_meso_batch1_rep1_minus_sorted.bw
+		shortLabel day4_meso_batch1_rep1_minus
+		longLabel day4_meso_batch1_rep1_minus_sorted
+		type bigWig
+		color 0,0,255
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day4_meso_batch1_rep1_minus view=signal stage=day4 fraction=meso rep=batch1 strand=minus
+		parent CAGEsignalBigWig on
+
+
+		track day4_meso_batch1_rep1_plus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day4_meso_batch1_rep1_plus_sorted.bw
+		shortLabel day4_meso_batch1_rep1_plus
+		longLabel day4_meso_batch1_rep1_plus_sorted
+		type bigWig
+		color 255,0,0
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day4_meso_batch1_rep1_plus view=signal stage=day4 fraction=meso rep=batch1 strand=plus
+		parent CAGEsignalBigWig on
+
+
+		track day4_postEpi_batch2_rep1_minus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day4_postEpi_batch2_rep1_minus_sorted.bw
+		shortLabel day4_postEpi_batch2_rep1_minus
+		longLabel day4_postEpi_batch2_rep1_minus_sorted
+		type bigWig
+		color 0,0,255
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day4_postEpi_batch2_rep1_minus view=signal stage=day4 fraction=postEpi rep=batch2 strand=minus
+		parent CAGEsignalBigWig on
+
+
+		track day4_postEpi_batch2_rep1_plus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day4_postEpi_batch2_rep1_plus_sorted.bw
+		shortLabel day4_postEpi_batch2_rep1_plus
+		longLabel day4_postEpi_batch2_rep1_plus_sorted
+		type bigWig
+		color 255,0,0
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day4_postEpi_batch2_rep1_plus view=signal stage=day4 fraction=postEpi rep=batch2 strand=plus
+		parent CAGEsignalBigWig on
+
+
+		track day4_postEpi_batch2_rep2_minus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day4_postEpi_batch2_rep2_minus_sorted.bw
+		shortLabel day4_postEpi_batch2_rep2_minus
+		longLabel day4_postEpi_batch2_rep2_minus_sorted
+		type bigWig
+		color 0,0,255
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day4_postEpi_batch2_rep2_minus view=signal stage=day4 fraction=postEpi rep=batch2 strand=minus
+		parent CAGEsignalBigWig on
+
+
+		track day4_postEpi_batch2_rep2_plus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day4_postEpi_batch2_rep2_plus_sorted.bw
+		shortLabel day4_postEpi_batch2_rep2_plus
+		longLabel day4_postEpi_batch2_rep2_plus_sorted
+		type bigWig
+		color 255,0,0
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day4_postEpi_batch2_rep2_plus view=signal stage=day4 fraction=postEpi rep=batch2 strand=plus
+		parent CAGEsignalBigWig on
+
+
+		track day4_spinal_batch1_rep1_minus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day4_spinal_batch1_rep1_minus_sorted.bw
+		shortLabel day4_spinal_batch1_rep1_minus
+		longLabel day4_spinal_batch1_rep1_minus_sorted
+		type bigWig
+		color 0,0,255
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day4_spinal_batch1_rep1_minus view=signal stage=day4 fraction=spinal rep=batch1 strand=minus
+		parent CAGEsignalBigWig on
+
+
+		track day4_spinal_batch1_rep1_plus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day4_spinal_batch1_rep1_plus_sorted.bw
+		shortLabel day4_spinal_batch1_rep1_plus
+		longLabel day4_spinal_batch1_rep1_plus_sorted
+		type bigWig
+		color 255,0,0
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day4_spinal_batch1_rep1_plus view=signal stage=day4 fraction=spinal rep=batch1 strand=plus
+		parent CAGEsignalBigWig on
+
+
+		track day5_meso_batch1_rep2_minus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day5_meso_batch1_rep2_minus_sorted.bw
+		shortLabel day5_meso_batch1_rep2_minus
+		longLabel day5_meso_batch1_rep2_minus_sorted
+		type bigWig
+		color 0,0,255
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day5_meso_batch1_rep2_minus view=signal stage=day5 fraction=meso rep=batch1 strand=minus
+		parent CAGEsignalBigWig on
+
+
+		track day5_meso_batch1_rep2_plus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day5_meso_batch1_rep2_plus_sorted.bw
+		shortLabel day5_meso_batch1_rep2_plus
+		longLabel day5_meso_batch1_rep2_plus_sorted
+		type bigWig
+		color 255,0,0
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day5_meso_batch1_rep2_plus view=signal stage=day5 fraction=meso rep=batch1 strand=plus
+		parent CAGEsignalBigWig on
+
+
+		track day5_meso_batch2_rep1_minus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day5_meso_batch2_rep1_minus_sorted.bw
+		shortLabel day5_meso_batch2_rep1_minus
+		longLabel day5_meso_batch2_rep1_minus_sorted
+		type bigWig
+		color 0,0,255
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day5_meso_batch2_rep1_minus view=signal stage=day5 fraction=meso rep=batch2 strand=minus
+		parent CAGEsignalBigWig on
+
+
+		track day5_meso_batch2_rep1_plus_sorted
+		bigDataUrl https://raw.githubusercontent.com/wwhittick/mouse_dev_track_hub/main/hg38/day5_meso_batch2_rep1_plus_sorted.bw
+		shortLabel day5_meso_batch2_rep1_plus
+		longLabel day5_meso_batch2_rep1_plus_sorted
+		type bigWig
+		color 255,0,0
+autoScale groupmaxHeightPixels 128:32:8		visibility full
+		subGroups sample=day5_meso_batch2_rep1_plus view=signal stage=day5 fraction=meso rep=batch2 strand=plus
+		parent CAGEsignalBigWig on
+
+
+
